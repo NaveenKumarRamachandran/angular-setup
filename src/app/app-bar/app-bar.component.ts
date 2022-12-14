@@ -18,7 +18,7 @@ export class AppBarComponent implements OnInit {
   test() {}
 
   triggerCallToParent() {
-    return this.outputData.emit("Child To parent");
+    return this.outputData.emit("Child To parent communication");
   }
 
 }
